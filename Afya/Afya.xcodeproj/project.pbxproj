@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42CF059D265DC735009AD452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF059C265DC735009AD452 /* AppDelegate.swift */; };
+		42CF059F265DC735009AD452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF059E265DC735009AD452 /* SceneDelegate.swift */; };
+		42CF05A1265DC735009AD452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF05A0265DC735009AD452 /* ViewController.swift */; };
+		42CF05A7265DC735009AD452 /* Afya.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42CF05A5265DC735009AD452 /* Afya.xcdatamodeld */; };
+		42CF05A9265DC738009AD452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42CF05A8265DC738009AD452 /* Assets.xcassets */; };
+		42CF05AC265DC738009AD452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CF05AA265DC738009AD452 /* LaunchScreen.storyboard */; };
+		42CF05B7265DC738009AD452 /* AfyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF05B6265DC738009AD452 /* AfyaTests.swift */; };
+		42CF05C2265DC738009AD452 /* AfyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF05C1265DC738009AD452 /* AfyaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42CF05B3265DC738009AD452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42CF0591265DC735009AD452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42CF0598265DC735009AD452;
+			remoteInfo = Afya;
+		};
+		42CF05BE265DC738009AD452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42CF0591265DC735009AD452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42CF0598265DC735009AD452;
+			remoteInfo = Afya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42CF0599265DC735009AD452 /* Afya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Afya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CF059C265DC735009AD452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42CF059E265DC735009AD452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		42CF05A0265DC735009AD452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42CF05A6265DC735009AD452 /* Afya.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Afya.xcdatamodel; sourceTree = "<group>"; };
+		42CF05A8265DC738009AD452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42CF05AB265DC738009AD452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42CF05AD265DC738009AD452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CF05B2265DC738009AD452 /* AfyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CF05B6265DC738009AD452 /* AfyaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfyaTests.swift; sourceTree = "<group>"; };
+		42CF05B8265DC738009AD452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CF05BD265DC738009AD452 /* AfyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CF05C1265DC738009AD452 /* AfyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfyaUITests.swift; sourceTree = "<group>"; };
+		42CF05C3265DC738009AD452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42CF0596265DC735009AD452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CF05AF265DC738009AD452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CF05BA265DC738009AD452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42CF0590265DC735009AD452 = {
+			isa = PBXGroup;
+			children = (
+				42CF059B265DC735009AD452 /* Afya */,
+				42CF05B5265DC738009AD452 /* AfyaTests */,
+				42CF05C0265DC738009AD452 /* AfyaUITests */,
+				42CF059A265DC735009AD452 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42CF059A265DC735009AD452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42CF0599265DC735009AD452 /* Afya.app */,
+				42CF05B2265DC738009AD452 /* AfyaTests.xctest */,
+				42CF05BD265DC738009AD452 /* AfyaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42CF059B265DC735009AD452 /* Afya */ = {
+			isa = PBXGroup;
+			children = (
+				42CF059C265DC735009AD452 /* AppDelegate.swift */,
+				42CF059E265DC735009AD452 /* SceneDelegate.swift */,
+				42CF05A0265DC735009AD452 /* ViewController.swift */,
+				42CF05A8265DC738009AD452 /* Assets.xcassets */,
+				42CF05AA265DC738009AD452 /* LaunchScreen.storyboard */,
+				42CF05AD265DC738009AD452 /* Info.plist */,
+				42CF05A5265DC735009AD452 /* Afya.xcdatamodeld */,
+			);
+			path = Afya;
+			sourceTree = "<group>";
+		};
+		42CF05B5265DC738009AD452 /* AfyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				42CF05B6265DC738009AD452 /* AfyaTests.swift */,
+				42CF05B8265DC738009AD452 /* Info.plist */,
+			);
+			path = AfyaTests;
+			sourceTree = "<group>";
+		};
+		42CF05C0265DC738009AD452 /* AfyaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42CF05C1265DC738009AD452 /* AfyaUITests.swift */,
+				42CF05C3265DC738009AD452 /* Info.plist */,
+			);
+			path = AfyaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42CF0598265DC735009AD452 /* Afya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CF05C6265DC738009AD452 /* Build configuration list for PBXNativeTarget "Afya" */;
+			buildPhases = (
+				42CF0595265DC735009AD452 /* Sources */,
+				42CF0596265DC735009AD452 /* Frameworks */,
+				42CF0597265DC735009AD452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Afya;
+			productName = Afya;
+			productReference = 42CF0599265DC735009AD452 /* Afya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42CF05B1265DC738009AD452 /* AfyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CF05C9265DC738009AD452 /* Build configuration list for PBXNativeTarget "AfyaTests" */;
+			buildPhases = (
+				42CF05AE265DC738009AD452 /* Sources */,
+				42CF05AF265DC738009AD452 /* Frameworks */,
+				42CF05B0265DC738009AD452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42CF05B4265DC738009AD452 /* PBXTargetDependency */,
+			);
+			name = AfyaTests;
+			productName = AfyaTests;
+			productReference = 42CF05B2265DC738009AD452 /* AfyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42CF05BC265DC738009AD452 /* AfyaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CF05CC265DC738009AD452 /* Build configuration list for PBXNativeTarget "AfyaUITests" */;
+			buildPhases = (
+				42CF05B9265DC738009AD452 /* Sources */,
+				42CF05BA265DC738009AD452 /* Frameworks */,
+				42CF05BB265DC738009AD452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42CF05BF265DC738009AD452 /* PBXTargetDependency */,
+			);
+			name = AfyaUITests;
+			productName = AfyaUITests;
+			productReference = 42CF05BD265DC738009AD452 /* AfyaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42CF0591265DC735009AD452 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					42CF0598265DC735009AD452 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					42CF05B1265DC738009AD452 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 42CF0598265DC735009AD452;
+					};
+					42CF05BC265DC738009AD452 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 42CF0598265DC735009AD452;
+					};
+				};
+			};
+			buildConfigurationList = 42CF0594265DC735009AD452 /* Build configuration list for PBXProject "Afya" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42CF0590265DC735009AD452;
+			productRefGroup = 42CF059A265DC735009AD452 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42CF0598265DC735009AD452 /* Afya */,
+				42CF05B1265DC738009AD452 /* AfyaTests */,
+				42CF05BC265DC738009AD452 /* AfyaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42CF0597265DC735009AD452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CF05AC265DC738009AD452 /* LaunchScreen.storyboard in Resources */,
+				42CF05A9265DC738009AD452 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CF05B0265DC738009AD452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CF05BB265DC738009AD452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42CF0595265DC735009AD452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CF05A1265DC735009AD452 /* ViewController.swift in Sources */,
+				42CF059D265DC735009AD452 /* AppDelegate.swift in Sources */,
+				42CF05A7265DC735009AD452 /* Afya.xcdatamodeld in Sources */,
+				42CF059F265DC735009AD452 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CF05AE265DC738009AD452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CF05B7265DC738009AD452 /* AfyaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CF05B9265DC738009AD452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CF05C2265DC738009AD452 /* AfyaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42CF05B4265DC738009AD452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42CF0598265DC735009AD452 /* Afya */;
+			targetProxy = 42CF05B3265DC738009AD452 /* PBXContainerItemProxy */;
+		};
+		42CF05BF265DC738009AD452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42CF0598265DC735009AD452 /* Afya */;
+			targetProxy = 42CF05BE265DC738009AD452 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42CF05AA265DC738009AD452 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CF05AB265DC738009AD452 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42CF05C4265DC738009AD452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42CF05C5265DC738009AD452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42CF05C7265DC738009AD452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48FQ2LXW3X;
+				INFOPLIST_FILE = Afya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = olainternet97.Afya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42CF05C8265DC738009AD452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48FQ2LXW3X;
+				INFOPLIST_FILE = Afya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = olainternet97.Afya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42CF05CA265DC738009AD452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48FQ2LXW3X;
+				INFOPLIST_FILE = AfyaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = olainternet97.AfyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Afya.app/Afya";
+			};
+			name = Debug;
+		};
+		42CF05CB265DC738009AD452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48FQ2LXW3X;
+				INFOPLIST_FILE = AfyaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = olainternet97.AfyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Afya.app/Afya";
+			};
+			name = Release;
+		};
+		42CF05CD265DC738009AD452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48FQ2LXW3X;
+				INFOPLIST_FILE = AfyaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = olainternet97.AfyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Afya;
+			};
+			name = Debug;
+		};
+		42CF05CE265DC738009AD452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48FQ2LXW3X;
+				INFOPLIST_FILE = AfyaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = olainternet97.AfyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Afya;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42CF0594265DC735009AD452 /* Build configuration list for PBXProject "Afya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CF05C4265DC738009AD452 /* Debug */,
+				42CF05C5265DC738009AD452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42CF05C6265DC738009AD452 /* Build configuration list for PBXNativeTarget "Afya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CF05C7265DC738009AD452 /* Debug */,
+				42CF05C8265DC738009AD452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42CF05C9265DC738009AD452 /* Build configuration list for PBXNativeTarget "AfyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CF05CA265DC738009AD452 /* Debug */,
+				42CF05CB265DC738009AD452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42CF05CC265DC738009AD452 /* Build configuration list for PBXNativeTarget "AfyaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CF05CD265DC738009AD452 /* Debug */,
+				42CF05CE265DC738009AD452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42CF05A5265DC735009AD452 /* Afya.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42CF05A6265DC735009AD452 /* Afya.xcdatamodel */,
+			);
+			currentVersion = 42CF05A6265DC735009AD452 /* Afya.xcdatamodel */;
+			path = Afya.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42CF0591265DC735009AD452 /* Project object */;
+}
