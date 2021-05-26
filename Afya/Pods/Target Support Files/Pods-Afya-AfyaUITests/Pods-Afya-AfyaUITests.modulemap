@@ -1,0 +1,6 @@
+framework module Pods_Afya_AfyaUITests {
+  umbrella header "Pods-Afya-AfyaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
