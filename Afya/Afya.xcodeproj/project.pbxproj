@@ -10,12 +10,15 @@
 		12032F56884D92D1504B3B6C /* Pods_Afya_AfyaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E363042D5C88E896F08476 /* Pods_Afya_AfyaUITests.framework */; };
 		42CF059D265DC735009AD452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF059C265DC735009AD452 /* AppDelegate.swift */; };
 		42CF059F265DC735009AD452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF059E265DC735009AD452 /* SceneDelegate.swift */; };
-		42CF05A1265DC735009AD452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF05A0265DC735009AD452 /* ViewController.swift */; };
 		42CF05A7265DC735009AD452 /* Afya.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42CF05A5265DC735009AD452 /* Afya.xcdatamodeld */; };
 		42CF05A9265DC738009AD452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42CF05A8265DC738009AD452 /* Assets.xcassets */; };
 		42CF05AC265DC738009AD452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CF05AA265DC738009AD452 /* LaunchScreen.storyboard */; };
 		42CF05B7265DC738009AD452 /* AfyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF05B6265DC738009AD452 /* AfyaTests.swift */; };
 		42CF05C2265DC738009AD452 /* AfyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF05C1265DC738009AD452 /* AfyaUITests.swift */; };
+		42E6C1F0265DD99400A182BB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E6C1EF265DD99400A182BB /* Coordinator.swift */; };
+		42E6C1F5265DDAB600A182BB /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E6C1F4265DDAB600A182BB /* AppCoordinator.swift */; };
+		42FD8B87265DDF66003057D2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD8B86265DDF66003057D2 /* HomeViewController.swift */; };
+		42FD8B98265DE437003057D2 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD8B97265DE437003057D2 /* HomeCoordinator.swift */; };
 		5551FDFC54B1651B7067C236 /* Pods_Afya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8A0FC1144F6DF748A0AE61 /* Pods_Afya.framework */; };
 		BF729C32BD153E06A5441EE8 /* Pods_AfyaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869B9FC2095A8E673E5E06E4 /* Pods_AfyaTests.framework */; };
 /* End PBXBuildFile section */
@@ -43,7 +46,6 @@
 		42CF0599265DC735009AD452 /* Afya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Afya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CF059C265DC735009AD452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42CF059E265DC735009AD452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		42CF05A0265DC735009AD452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42CF05A6265DC735009AD452 /* Afya.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Afya.xcdatamodel; sourceTree = "<group>"; };
 		42CF05A8265DC738009AD452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42CF05AB265DC738009AD452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,10 @@
 		42CF05BD265DC738009AD452 /* AfyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CF05C1265DC738009AD452 /* AfyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfyaUITests.swift; sourceTree = "<group>"; };
 		42CF05C3265DC738009AD452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E6C1EF265DD99400A182BB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		42E6C1F4265DDAB600A182BB /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		42FD8B86265DDF66003057D2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		42FD8B97265DE437003057D2 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		49E363042D5C88E896F08476 /* Pods_Afya_AfyaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Afya_AfyaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		869B9FC2095A8E673E5E06E4 /* Pods_AfyaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AfyaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD0A986E979A76A1D54D93C /* Pods-Afya-AfyaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Afya-AfyaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Afya-AfyaUITests/Pods-Afya-AfyaUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +107,6 @@
 				E7017C414EBD5DF8ABAB0BAC /* Pods-AfyaTests.debug.xcconfig */,
 				3ACBD9E76652C5C590F115AF /* Pods-AfyaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,13 +135,13 @@
 		42CF059B265DC735009AD452 /* Afya */ = {
 			isa = PBXGroup;
 			children = (
-				42CF059C265DC735009AD452 /* AppDelegate.swift */,
-				42CF059E265DC735009AD452 /* SceneDelegate.swift */,
-				42CF05A0265DC735009AD452 /* ViewController.swift */,
-				42CF05A8265DC738009AD452 /* Assets.xcassets */,
+				42FD8B90265DDFAB003057D2 /* AppDelegates */,
+				42FD8B8F265DDF9F003057D2 /* Resources */,
+				42FD8B8E265DDF8F003057D2 /* Scenes */,
+				42E6C1EE265DD98500A182BB /* Coordinator */,
 				42CF05AA265DC738009AD452 /* LaunchScreen.storyboard */,
-				42CF05AD265DC738009AD452 /* Info.plist */,
 				42CF05A5265DC735009AD452 /* Afya.xcdatamodeld */,
+				42CF05AD265DC738009AD452 /* Info.plist */,
 			);
 			path = Afya;
 			sourceTree = "<group>";
@@ -157,6 +162,49 @@
 				42CF05C3265DC738009AD452 /* Info.plist */,
 			);
 			path = AfyaUITests;
+			sourceTree = "<group>";
+		};
+		42E6C1EE265DD98500A182BB /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				42E6C1EF265DD99400A182BB /* Coordinator.swift */,
+				42E6C1F4265DDAB600A182BB /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		42FD8B85265DDF51003057D2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				42FD8B86265DDF66003057D2 /* HomeViewController.swift */,
+				42FD8B97265DE437003057D2 /* HomeCoordinator.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		42FD8B8E265DDF8F003057D2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				42FD8B85265DDF51003057D2 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		42FD8B8F265DDF9F003057D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42CF05A8265DC738009AD452 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		42FD8B90265DDFAB003057D2 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				42CF059C265DC735009AD452 /* AppDelegate.swift */,
+				42CF059E265DC735009AD452 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
 			sourceTree = "<group>";
 		};
 		4802B8B77C08B1008A63FF88 /* Frameworks */ = {
@@ -370,9 +418,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42CF05A1265DC735009AD452 /* ViewController.swift in Sources */,
+				42E6C1F5265DDAB600A182BB /* AppCoordinator.swift in Sources */,
 				42CF059D265DC735009AD452 /* AppDelegate.swift in Sources */,
+				42E6C1F0265DD99400A182BB /* Coordinator.swift in Sources */,
 				42CF05A7265DC735009AD452 /* Afya.xcdatamodeld in Sources */,
+				42FD8B87265DDF66003057D2 /* HomeViewController.swift in Sources */,
+				42FD8B98265DE437003057D2 /* HomeCoordinator.swift in Sources */,
 				42CF059F265DC735009AD452 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
