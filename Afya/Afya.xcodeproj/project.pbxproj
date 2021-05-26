@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12032F56884D92D1504B3B6C /* Pods_Afya_AfyaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E363042D5C88E896F08476 /* Pods_Afya_AfyaUITests.framework */; };
 		42CF059D265DC735009AD452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF059C265DC735009AD452 /* AppDelegate.swift */; };
 		42CF059F265DC735009AD452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF059E265DC735009AD452 /* SceneDelegate.swift */; };
 		42CF05A1265DC735009AD452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF05A0265DC735009AD452 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		42CF05AC265DC738009AD452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CF05AA265DC738009AD452 /* LaunchScreen.storyboard */; };
 		42CF05B7265DC738009AD452 /* AfyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF05B6265DC738009AD452 /* AfyaTests.swift */; };
 		42CF05C2265DC738009AD452 /* AfyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF05C1265DC738009AD452 /* AfyaUITests.swift */; };
+		5551FDFC54B1651B7067C236 /* Pods_Afya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8A0FC1144F6DF748A0AE61 /* Pods_Afya.framework */; };
+		BF729C32BD153E06A5441EE8 /* Pods_AfyaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869B9FC2095A8E673E5E06E4 /* Pods_AfyaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F8A0FC1144F6DF748A0AE61 /* Pods_Afya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Afya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACBD9E76652C5C590F115AF /* Pods-AfyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AfyaTests.release.xcconfig"; path = "Target Support Files/Pods-AfyaTests/Pods-AfyaTests.release.xcconfig"; sourceTree = "<group>"; };
 		42CF0599265DC735009AD452 /* Afya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Afya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CF059C265DC735009AD452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42CF059E265DC735009AD452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		42CF05BD265DC738009AD452 /* AfyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CF05C1265DC738009AD452 /* AfyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfyaUITests.swift; sourceTree = "<group>"; };
 		42CF05C3265DC738009AD452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E363042D5C88E896F08476 /* Pods_Afya_AfyaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Afya_AfyaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		869B9FC2095A8E673E5E06E4 /* Pods_AfyaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AfyaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD0A986E979A76A1D54D93C /* Pods-Afya-AfyaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Afya-AfyaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Afya-AfyaUITests/Pods-Afya-AfyaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D83494D2D4CDBF91D2AAAB29 /* Pods-Afya-AfyaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Afya-AfyaUITests.release.xcconfig"; path = "Target Support Files/Pods-Afya-AfyaUITests/Pods-Afya-AfyaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7017C414EBD5DF8ABAB0BAC /* Pods-AfyaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AfyaTests.debug.xcconfig"; path = "Target Support Files/Pods-AfyaTests/Pods-AfyaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1F9B59978B464B092C1ED0D /* Pods-Afya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Afya.debug.xcconfig"; path = "Target Support Files/Pods-Afya/Pods-Afya.debug.xcconfig"; sourceTree = "<group>"; };
+		FCA16DADACAF103747FDB8ED /* Pods-Afya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Afya.release.xcconfig"; path = "Target Support Files/Pods-Afya/Pods-Afya.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5551FDFC54B1651B7067C236 /* Pods_Afya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF729C32BD153E06A5441EE8 /* Pods_AfyaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12032F56884D92D1504B3B6C /* Pods_Afya_AfyaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		415950D218EFC283A71DA77F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1F9B59978B464B092C1ED0D /* Pods-Afya.debug.xcconfig */,
+				FCA16DADACAF103747FDB8ED /* Pods-Afya.release.xcconfig */,
+				CAD0A986E979A76A1D54D93C /* Pods-Afya-AfyaUITests.debug.xcconfig */,
+				D83494D2D4CDBF91D2AAAB29 /* Pods-Afya-AfyaUITests.release.xcconfig */,
+				E7017C414EBD5DF8ABAB0BAC /* Pods-AfyaTests.debug.xcconfig */,
+				3ACBD9E76652C5C590F115AF /* Pods-AfyaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		42CF0590265DC735009AD452 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				42CF05B5265DC738009AD452 /* AfyaTests */,
 				42CF05C0265DC738009AD452 /* AfyaUITests */,
 				42CF059A265DC735009AD452 /* Products */,
+				415950D218EFC283A71DA77F /* Pods */,
+				4802B8B77C08B1008A63FF88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +159,16 @@
 			path = AfyaUITests;
 			sourceTree = "<group>";
 		};
+		4802B8B77C08B1008A63FF88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F8A0FC1144F6DF748A0AE61 /* Pods_Afya.framework */,
+				49E363042D5C88E896F08476 /* Pods_Afya_AfyaUITests.framework */,
+				869B9FC2095A8E673E5E06E4 /* Pods_AfyaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42CF05C6265DC738009AD452 /* Build configuration list for PBXNativeTarget "Afya" */;
 			buildPhases = (
+				4FE12F0BE108A7ADDFD1CE23 /* [CP] Check Pods Manifest.lock */,
 				42CF0595265DC735009AD452 /* Sources */,
 				42CF0596265DC735009AD452 /* Frameworks */,
 				42CF0597265DC735009AD452 /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42CF05C9265DC738009AD452 /* Build configuration list for PBXNativeTarget "AfyaTests" */;
 			buildPhases = (
+				6DDCE51EE5999821CAB10C80 /* [CP] Check Pods Manifest.lock */,
 				42CF05AE265DC738009AD452 /* Sources */,
 				42CF05AF265DC738009AD452 /* Frameworks */,
 				42CF05B0265DC738009AD452 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42CF05CC265DC738009AD452 /* Build configuration list for PBXNativeTarget "AfyaUITests" */;
 			buildPhases = (
+				101780C825152BD0301D8F5B /* [CP] Check Pods Manifest.lock */,
 				42CF05B9265DC738009AD452 /* Sources */,
 				42CF05BA265DC738009AD452 /* Frameworks */,
 				42CF05BB265DC738009AD452 /* Resources */,
@@ -251,6 +295,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		101780C825152BD0301D8F5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Afya-AfyaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FE12F0BE108A7ADDFD1CE23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Afya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DDCE51EE5999821CAB10C80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AfyaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		42CF0595265DC735009AD452 /* Sources */ = {
@@ -425,6 +538,7 @@
 		};
 		42CF05C7265DC738009AD452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F9B59978B464B092C1ED0D /* Pods-Afya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +558,7 @@
 		};
 		42CF05C8265DC738009AD452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCA16DADACAF103747FDB8ED /* Pods-Afya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -463,6 +578,7 @@
 		};
 		42CF05CA265DC738009AD452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7017C414EBD5DF8ABAB0BAC /* Pods-AfyaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +601,7 @@
 		};
 		42CF05CB265DC738009AD452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ACBD9E76652C5C590F115AF /* Pods-AfyaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +624,7 @@
 		};
 		42CF05CD265DC738009AD452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD0A986E979A76A1D54D93C /* Pods-Afya-AfyaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +645,7 @@
 		};
 		42CF05CE265DC738009AD452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83494D2D4CDBF91D2AAAB29 /* Pods-Afya-AfyaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
