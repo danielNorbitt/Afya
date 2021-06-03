@@ -3,11 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		12032F56884D92D1504B3B6C /* Pods_Afya_AfyaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E363042D5C88E896F08476 /* Pods_Afya_AfyaUITests.framework */; };
+		4241990126681F5400F2A482 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424198EE26681F5200F2A482 /* Day.swift */; };
+		4241990426681F5400F2A482 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424198F126681F5200F2A482 /* Serie.swift */; };
+		4241990526681F5400F2A482 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424198F226681F5300F2A482 /* Rating.swift */; };
+		4241990A26681F5400F2A482 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424198F726681F5300F2A482 /* Schedule.swift */; };
+		4241990D26681F5400F2A482 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424198FA26681F5300F2A482 /* Country.swift */; };
+		4241990E26681F5400F2A482 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424198FB26681F5300F2A482 /* Image.swift */; };
+		4241990F26681F5400F2A482 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424198FC26681F5300F2A482 /* Network.swift */; };
+		4241992E2668228E00F2A482 /* ErrorAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4241992B2668228D00F2A482 /* ErrorAPI.swift */; };
+		42419943266830B900F2A482 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4241988C2668069A00F2A482 /* Repository.swift */; };
+		4241994E266831EC00F2A482 /* RemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4241994D266831EC00F2A482 /* RemoteRepository.swift */; };
+		4241997926683AF700F2A482 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4241997626683AF700F2A482 /* Episode.swift */; };
+		4241997A26683AF700F2A482 /* Embedded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4241997726683AF700F2A482 /* Embedded.swift */; };
+		424199832668428700F2A482 /* EpisodeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424199822668428700F2A482 /* EpisodeAPI.swift */; };
+		424199882668438E00F2A482 /* EpisodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424199872668438E00F2A482 /* EpisodeService.swift */; };
+		4241998E266844A900F2A482 /* SeasonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4241998D266844A900F2A482 /* SeasonAPI.swift */; };
+		42419996266844B300F2A482 /* SeasonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42419995266844B300F2A482 /* SeasonService.swift */; };
+		4241999B266845B600F2A482 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4241999A266845B600F2A482 /* Season.swift */; };
 		42CF059D265DC735009AD452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF059C265DC735009AD452 /* AppDelegate.swift */; };
 		42CF059F265DC735009AD452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF059E265DC735009AD452 /* SceneDelegate.swift */; };
 		42CF05A7265DC735009AD452 /* Afya.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42CF05A5265DC735009AD452 /* Afya.xcdatamodeld */; };
@@ -17,6 +34,9 @@
 		42CF05C2265DC738009AD452 /* AfyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF05C1265DC738009AD452 /* AfyaUITests.swift */; };
 		42E6C1F0265DD99400A182BB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E6C1EF265DD99400A182BB /* Coordinator.swift */; };
 		42E6C1F5265DDAB600A182BB /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E6C1F4265DDAB600A182BB /* AppCoordinator.swift */; };
+		42EAD3572666B0150054AA13 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EAD3562666B0150054AA13 /* APIClient.swift */; };
+		42EAD36D2666BFA20054AA13 /* SerieAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EAD36C2666BFA20054AA13 /* SerieAPI.swift */; };
+		42EAD3752666BFE20054AA13 /* SerieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EAD3742666BFE20054AA13 /* SerieService.swift */; };
 		42FD8B87265DDF66003057D2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD8B86265DDF66003057D2 /* HomeViewController.swift */; };
 		42FD8B98265DE437003057D2 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD8B97265DE437003057D2 /* HomeCoordinator.swift */; };
 		5551FDFC54B1651B7067C236 /* Pods_Afya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8A0FC1144F6DF748A0AE61 /* Pods_Afya.framework */; };
@@ -43,6 +63,23 @@
 /* Begin PBXFileReference section */
 		1F8A0FC1144F6DF748A0AE61 /* Pods_Afya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Afya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ACBD9E76652C5C590F115AF /* Pods-AfyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AfyaTests.release.xcconfig"; path = "Target Support Files/Pods-AfyaTests/Pods-AfyaTests.release.xcconfig"; sourceTree = "<group>"; };
+		4241988C2668069A00F2A482 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		424198EE26681F5200F2A482 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		424198F126681F5200F2A482 /* Serie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
+		424198F226681F5300F2A482 /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		424198F726681F5300F2A482 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		424198FA26681F5300F2A482 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		424198FB26681F5300F2A482 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		424198FC26681F5300F2A482 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		4241992B2668228D00F2A482 /* ErrorAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAPI.swift; sourceTree = "<group>"; };
+		4241994D266831EC00F2A482 /* RemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteRepository.swift; sourceTree = "<group>"; };
+		4241997626683AF700F2A482 /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		4241997726683AF700F2A482 /* Embedded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Embedded.swift; sourceTree = "<group>"; };
+		424199822668428700F2A482 /* EpisodeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EpisodeAPI.swift; path = Afya/EpisodeAPI.swift; sourceTree = SOURCE_ROOT; };
+		424199872668438E00F2A482 /* EpisodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeService.swift; sourceTree = "<group>"; };
+		4241998D266844A900F2A482 /* SeasonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonAPI.swift; sourceTree = "<group>"; };
+		42419995266844B300F2A482 /* SeasonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonService.swift; sourceTree = "<group>"; };
+		4241999A266845B600F2A482 /* Season.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
 		42CF0599265DC735009AD452 /* Afya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Afya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CF059C265DC735009AD452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42CF059E265DC735009AD452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +95,9 @@
 		42CF05C3265DC738009AD452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42E6C1EF265DD99400A182BB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		42E6C1F4265DDAB600A182BB /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		42EAD3562666B0150054AA13 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		42EAD36C2666BFA20054AA13 /* SerieAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerieAPI.swift; sourceTree = "<group>"; };
+		42EAD3742666BFE20054AA13 /* SerieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerieService.swift; sourceTree = "<group>"; };
 		42FD8B86265DDF66003057D2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		42FD8B97265DE437003057D2 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		49E363042D5C88E896F08476 /* Pods_Afya_AfyaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Afya_AfyaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +150,51 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4241988B2668068A00F2A482 /* Repositoy */ = {
+			isa = PBXGroup;
+			children = (
+				4241988C2668069A00F2A482 /* Repository.swift */,
+				4241994D266831EC00F2A482 /* RemoteRepository.swift */,
+			);
+			path = Repositoy;
+			sourceTree = "<group>";
+		};
+		424199522668323C00F2A482 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				42EAD3562666B0150054AA13 /* APIClient.swift */,
+				4241988B2668068A00F2A482 /* Repositoy */,
+				42EAD36A2666BF4C0054AA13 /* Service */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		424199712668376E00F2A482 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				4241992B2668228D00F2A482 /* ErrorAPI.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		424199812668427100F2A482 /* Episode */ = {
+			isa = PBXGroup;
+			children = (
+				424199822668428700F2A482 /* EpisodeAPI.swift */,
+				424199872668438E00F2A482 /* EpisodeService.swift */,
+			);
+			path = Episode;
+			sourceTree = "<group>";
+		};
+		4241998C2668449E00F2A482 /* Season */ = {
+			isa = PBXGroup;
+			children = (
+				4241998D266844A900F2A482 /* SeasonAPI.swift */,
+				42419995266844B300F2A482 /* SeasonService.swift */,
+			);
+			path = Season;
+			sourceTree = "<group>";
+		};
 		42CF0590265DC735009AD452 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +220,8 @@
 		42CF059B265DC735009AD452 /* Afya */ = {
 			isa = PBXGroup;
 			children = (
+				424199522668323C00F2A482 /* Api */,
+				42EAD3642666BF1D0054AA13 /* Model */,
 				42FD8B90265DDFAB003057D2 /* AppDelegates */,
 				42FD8B8F265DDF9F003057D2 /* Resources */,
 				42FD8B8E265DDF8F003057D2 /* Scenes */,
@@ -171,6 +258,43 @@
 				42E6C1F4265DDAB600A182BB /* AppCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		42EAD3642666BF1D0054AA13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				424199712668376E00F2A482 /* Error */,
+				424198FA26681F5300F2A482 /* Country.swift */,
+				424198EE26681F5200F2A482 /* Day.swift */,
+				424198FB26681F5300F2A482 /* Image.swift */,
+				424198FC26681F5300F2A482 /* Network.swift */,
+				424198F226681F5300F2A482 /* Rating.swift */,
+				424198F726681F5300F2A482 /* Schedule.swift */,
+				424198F126681F5200F2A482 /* Serie.swift */,
+				4241997726683AF700F2A482 /* Embedded.swift */,
+				4241997626683AF700F2A482 /* Episode.swift */,
+				4241999A266845B600F2A482 /* Season.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42EAD36A2666BF4C0054AA13 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4241998C2668449E00F2A482 /* Season */,
+				424199812668427100F2A482 /* Episode */,
+				42EAD36B2666BF970054AA13 /* Serie */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		42EAD36B2666BF970054AA13 /* Serie */ = {
+			isa = PBXGroup;
+			children = (
+				42EAD36C2666BFA20054AA13 /* SerieAPI.swift */,
+				42EAD3742666BFE20054AA13 /* SerieService.swift */,
+			);
+			path = Serie;
 			sourceTree = "<group>";
 		};
 		42FD8B85265DDF51003057D2 /* Home */ = {
@@ -228,6 +352,7 @@
 				42CF0595265DC735009AD452 /* Sources */,
 				42CF0596265DC735009AD452 /* Frameworks */,
 				42CF0597265DC735009AD452 /* Resources */,
+				AFFA15DB3F931ACD437378C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,6 +390,7 @@
 				42CF05B9265DC738009AD452 /* Sources */,
 				42CF05BA265DC738009AD452 /* Frameworks */,
 				42CF05BB265DC738009AD452 /* Resources */,
+				BE62730B8916C15B06030584 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -411,6 +537,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AFFA15DB3F931ACD437378C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Afya/Pods-Afya-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Afya/Pods-Afya-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Afya/Pods-Afya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE62730B8916C15B06030584 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Afya-AfyaUITests/Pods-Afya-AfyaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Afya-AfyaUITests/Pods-Afya-AfyaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Afya-AfyaUITests/Pods-Afya-AfyaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -418,13 +578,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4241999B266845B600F2A482 /* Season.swift in Sources */,
+				4241990F26681F5400F2A482 /* Network.swift in Sources */,
+				4241992E2668228E00F2A482 /* ErrorAPI.swift in Sources */,
 				42E6C1F5265DDAB600A182BB /* AppCoordinator.swift in Sources */,
 				42CF059D265DC735009AD452 /* AppDelegate.swift in Sources */,
+				4241997926683AF700F2A482 /* Episode.swift in Sources */,
+				4241994E266831EC00F2A482 /* RemoteRepository.swift in Sources */,
+				42419943266830B900F2A482 /* Repository.swift in Sources */,
+				424199832668428700F2A482 /* EpisodeAPI.swift in Sources */,
+				4241990D26681F5400F2A482 /* Country.swift in Sources */,
+				424199882668438E00F2A482 /* EpisodeService.swift in Sources */,
+				4241990126681F5400F2A482 /* Day.swift in Sources */,
 				42E6C1F0265DD99400A182BB /* Coordinator.swift in Sources */,
+				42EAD36D2666BFA20054AA13 /* SerieAPI.swift in Sources */,
+				4241990426681F5400F2A482 /* Serie.swift in Sources */,
+				4241998E266844A900F2A482 /* SeasonAPI.swift in Sources */,
+				4241997A26683AF700F2A482 /* Embedded.swift in Sources */,
+				42EAD3572666B0150054AA13 /* APIClient.swift in Sources */,
 				42CF05A7265DC735009AD452 /* Afya.xcdatamodeld in Sources */,
+				42419996266844B300F2A482 /* SeasonService.swift in Sources */,
+				4241990A26681F5400F2A482 /* Schedule.swift in Sources */,
 				42FD8B87265DDF66003057D2 /* HomeViewController.swift in Sources */,
 				42FD8B98265DE437003057D2 /* HomeCoordinator.swift in Sources */,
+				4241990526681F5400F2A482 /* Rating.swift in Sources */,
 				42CF059F265DC735009AD452 /* SceneDelegate.swift in Sources */,
+				42EAD3752666BFE20054AA13 /* SerieService.swift in Sources */,
+				4241990E26681F5400F2A482 /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

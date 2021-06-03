@@ -6,7 +6,7 @@ target 'Afya' do
   use_frameworks!
 
   # Pods for Afya
-
+	pod 'Alamofire', '~> 5.2'
   target 'AfyaTests' do
     inherit! :search_paths
     # Pods for testing
