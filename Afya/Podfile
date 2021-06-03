@@ -7,6 +7,7 @@ target 'Afya' do
 
   # Pods for Afya
 	pod 'Alamofire', '~> 5.2'
+	pod 'SnapKit', '~> 5.0.0'
   target 'AfyaTests' do
     inherit! :search_paths
     # Pods for testing

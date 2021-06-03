@@ -25,6 +25,9 @@
 		4241998E266844A900F2A482 /* SeasonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4241998D266844A900F2A482 /* SeasonAPI.swift */; };
 		42419996266844B300F2A482 /* SeasonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42419995266844B300F2A482 /* SeasonService.swift */; };
 		4241999B266845B600F2A482 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4241999A266845B600F2A482 /* Season.swift */; };
+		428AD541266956B400C3C8DF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428AD540266956B400C3C8DF /* HomeViewModel.swift */; };
+		428AD546266956BD00C3C8DF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428AD545266956BD00C3C8DF /* HomeView.swift */; };
+		428AD54B26695D2700C3C8DF /* HasCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428AD54A26695D2700C3C8DF /* HasCustomView.swift */; };
 		42CF059D265DC735009AD452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF059C265DC735009AD452 /* AppDelegate.swift */; };
 		42CF059F265DC735009AD452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF059E265DC735009AD452 /* SceneDelegate.swift */; };
 		42CF05A7265DC735009AD452 /* Afya.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42CF05A5265DC735009AD452 /* Afya.xcdatamodeld */; };
@@ -80,6 +83,9 @@
 		4241998D266844A900F2A482 /* SeasonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonAPI.swift; sourceTree = "<group>"; };
 		42419995266844B300F2A482 /* SeasonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonService.swift; sourceTree = "<group>"; };
 		4241999A266845B600F2A482 /* Season.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		428AD540266956B400C3C8DF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		428AD545266956BD00C3C8DF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		428AD54A26695D2700C3C8DF /* HasCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasCustomView.swift; sourceTree = "<group>"; };
 		42CF0599265DC735009AD452 /* Afya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Afya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CF059C265DC735009AD452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42CF059E265DC735009AD452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -195,6 +201,14 @@
 			path = Season;
 			sourceTree = "<group>";
 		};
+		428AD54F26695D3200C3C8DF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				428AD54A26695D2700C3C8DF /* HasCustomView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		42CF0590265DC735009AD452 = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +234,7 @@
 		42CF059B265DC735009AD452 /* Afya */ = {
 			isa = PBXGroup;
 			children = (
+				428AD54F26695D3200C3C8DF /* Helper */,
 				424199522668323C00F2A482 /* Api */,
 				42EAD3642666BF1D0054AA13 /* Model */,
 				42FD8B90265DDFAB003057D2 /* AppDelegates */,
@@ -302,6 +317,8 @@
 			children = (
 				42FD8B86265DDF66003057D2 /* HomeViewController.swift */,
 				42FD8B97265DE437003057D2 /* HomeCoordinator.swift */,
+				428AD540266956B400C3C8DF /* HomeViewModel.swift */,
+				428AD545266956BD00C3C8DF /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -590,6 +607,7 @@
 				4241990D26681F5400F2A482 /* Country.swift in Sources */,
 				424199882668438E00F2A482 /* EpisodeService.swift in Sources */,
 				4241990126681F5400F2A482 /* Day.swift in Sources */,
+				428AD546266956BD00C3C8DF /* HomeView.swift in Sources */,
 				42E6C1F0265DD99400A182BB /* Coordinator.swift in Sources */,
 				42EAD36D2666BFA20054AA13 /* SerieAPI.swift in Sources */,
 				4241990426681F5400F2A482 /* Serie.swift in Sources */,
@@ -601,9 +619,11 @@
 				4241990A26681F5400F2A482 /* Schedule.swift in Sources */,
 				42FD8B87265DDF66003057D2 /* HomeViewController.swift in Sources */,
 				42FD8B98265DE437003057D2 /* HomeCoordinator.swift in Sources */,
+				428AD541266956B400C3C8DF /* HomeViewModel.swift in Sources */,
 				4241990526681F5400F2A482 /* Rating.swift in Sources */,
 				42CF059F265DC735009AD452 /* SceneDelegate.swift in Sources */,
 				42EAD3752666BFE20054AA13 /* SerieService.swift in Sources */,
+				428AD54B26695D2700C3C8DF /* HasCustomView.swift in Sources */,
 				4241990E26681F5400F2A482 /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

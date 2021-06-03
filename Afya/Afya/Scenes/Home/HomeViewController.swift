@@ -6,25 +6,28 @@
 //
 
 import UIKit
+import Combine
 
 class HomeViewController: UIViewController {
     
-    let serieService = SerieService()
+    var viewModel:HomeViewModel<SerieService>?
+    
+    private var cancellables: Set<AnyCancellable> = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.title = "Home"
         self.view.backgroundColor = .systemBlue
-    
-        self.serieService.getSearcheSeriesByName(by: "girls") { (result) in
-            switch result {
-            case .success(let series):
-                debugPrint(series.count)
-            case .failure(let error):
-                debugPrint(error)
-            }
-        }
+        
+        bindViewModel()
+        viewModel?.fetchSeries()
          
+    }
+    
+    private func bindViewModel() {
+        viewModel?.$series
+            .sink { (series) in print(series) }
+            .store(in: &cancellables)
     }
 }

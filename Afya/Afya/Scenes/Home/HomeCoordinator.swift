@@ -17,8 +17,12 @@ final class HomeCoordinator: Coordinator {
     }
     
     func start() {
+        let homeViewModel = HomeViewModel(serieService: SerieService())
         let homeViewController = HomeViewController()
+        homeViewController.viewModel = homeViewModel
         self.navigationController.setViewControllers([homeViewController], animated: true)
     }
+    
+    
 
 }

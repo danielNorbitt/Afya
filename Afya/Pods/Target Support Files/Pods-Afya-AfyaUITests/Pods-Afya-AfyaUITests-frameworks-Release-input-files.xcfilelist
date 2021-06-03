@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-Afya-AfyaUITests/Pods-Afya-AfyaUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
