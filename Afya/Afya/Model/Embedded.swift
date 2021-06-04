@@ -6,6 +6,6 @@
 import Foundation
 
 // MARK: - Embedded
-struct Embedded: Codable {
+struct Embedded: Codable, Hashable {
     let episodes: [Episode]?
 }

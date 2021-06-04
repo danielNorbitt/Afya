@@ -6,6 +6,17 @@
 import Foundation
 
 // MARK: - Image
-struct Image: Codable {
+struct Image: Codable, Hashable{
     let medium, original: String?
+    
+    var urlUmageMedium:URL? {
+        guard let mediumSafe = medium else {return nil}
+        return URL(string: mediumSafe)
+    }
+    
+    var urlUmageOriginal:URL? {
+        guard let originalSafe = original else {return nil}
+        return URL(string: originalSafe)
+    }
+    
 }

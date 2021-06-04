@@ -5,6 +5,6 @@
 import Foundation
 
 // MARK: - Rating
-struct Rating: Codable {
+struct Rating: Codable, Hashable {
     let average: Double?
 }

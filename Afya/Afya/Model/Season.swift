@@ -5,7 +5,7 @@
 import Foundation
 
 // MARK: - Season
-struct Season: Codable {
+struct Season: Codable, Hashable{
     let id: Int?
     let number: Int?
     let name: String?

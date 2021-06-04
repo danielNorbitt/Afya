@@ -5,7 +5,7 @@
 import Foundation
 
 // MARK: - Network
-struct Network: Codable {
+struct Network: Codable, Hashable {
     let id: Int?
     let name: String?
     let country: Country?

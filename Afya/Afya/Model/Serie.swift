@@ -5,7 +5,8 @@
 import Foundation
 
 // MARK: - SerieElement
-struct Serie: Codable {
+struct Serie: Codable, Hashable {
+    
     let id: Int?
     let name: String?
     let language: String?
@@ -19,9 +20,21 @@ struct Serie: Codable {
     let image: Image?
     let summary: String?
     let embedded: Embedded?
+    
+    var formattedSumary: NSAttributedString? {
+        guard let summarySafe = summary else {return nil}
+        let data = Data(summarySafe.utf8)
+        return try? NSAttributedString(data: data, options: [.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil)
+    }
 
     enum CodingKeys: String, CodingKey {
         case id, name, language, genres, status, premiered, officialSite, schedule, rating, network, webChannel, image, summary
         case embedded = "_embedded"
+    }
+}
+
+extension Serie: Equatable {
+    static func == (lhs: Serie, rhs: Serie) -> Bool {
+        return lhs.id == rhs.id
     }
 }

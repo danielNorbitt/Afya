@@ -6,7 +6,8 @@
 import Foundation
 
 // MARK: - Episode
-struct Episode: Codable {
+struct Episode: Codable, Hashable{
+    
     let id: Int?
     let name: String?
     let season, number: Int?
@@ -17,8 +18,14 @@ struct Episode: Codable {
     let runtime: Int?
     let image: Image?
     let summary: String?
-
+    
     enum CodingKeys: String, CodingKey {
         case id, name, season, number, type, airdate, airtime, airstamp, runtime, image, summary
+    }
+}
+
+extension Episode: Equatable {
+    static func == (lhs: Episode, rhs: Episode) -> Bool {
+        return lhs.id == rhs.id
     }
 }

@@ -6,7 +6,7 @@
 import Foundation
 
 // MARK: - Schedule
-struct Schedule: Codable {
+struct Schedule: Codable, Hashable{
     let time: String?
     let days: [String]?
 }
