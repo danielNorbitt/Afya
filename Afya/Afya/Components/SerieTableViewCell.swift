@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import AlamofireImage
+import SDWebImage
 
 class SerieTableViewCell: UITableViewCell {
     
@@ -63,7 +63,7 @@ class SerieTableViewCell: UITableViewCell {
     func configure(with serie:Serie) {
         titleLabel.text = serie.name
         summaryLabel.attributedText = serie.formattedSumary
-        serieImageView.af.setImage(withURL: (serie.image?.urlUmageMedium)!,placeholderImage: UIImage(systemName: "icloud.slash"))
+        serieImageView.sd_setImage(with: (serie.image?.urlUmageMedium), placeholderImage:UIImage(systemName: "icloud.slash"))
     }
     
     override func layoutSubviews() {

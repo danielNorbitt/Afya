@@ -11,7 +11,7 @@ protocol SerieServiceProtocol:RemoteService{
     func getAllSeries(_ completion: @escaping (Result<[Serie], APIError>)->Void)
     func getSeriesByPage(on numberPage:Int, _ completion: @escaping (Result<[Serie], APIError>)->Void)
     func getSerie(serieId:Int, _ completion: @escaping (Result<Serie, APIError>)->Void)
-    func getSearcheSeriesByName(by nameSerie:String, _ completion: @escaping (Result<[Serie], APIError>)->Void)
+    func getSearcheSeriesByName(by nameSerie:String, _ completion: @escaping (Result<[SearchResult], APIError>)->Void)
 }
 
 final class SerieService:SerieServiceProtocol{
@@ -34,8 +34,8 @@ final class SerieService:SerieServiceProtocol{
         fetchRemote(on: endPoint, source: [Serie].self, completion)
     }
     
-    func getSearcheSeriesByName(by nameSerie:String, _ completion: @escaping (Result<[Serie], APIError>)->Void) {
+    func getSearcheSeriesByName(by nameSerie:String, _ completion: @escaping (Result<[SearchResult], APIError>)->Void) {
         let endPoint = targetApi(.searchByName(nameSerie))
-        fetchRemote(on: endPoint, source: [Serie].self, completion)
+        fetchRemote(on: endPoint, source: [SearchResult].self, completion)
     }
 }

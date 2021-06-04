@@ -29,6 +29,14 @@ class HomeViewController: UIViewController {
         customView.setUpTableView()
         
         customView.setUpSearchBar(navigationItem: self.navigationItem)
+        
+        navigationController?.navigationBar.prefersLargeTitles = true
+        
+        navigationController?.navigationBar.tintColor = .white
+        
+        navigationController?.navigationBar.barTintColor = .cyan
+        
+        navigationController?.navigationBar.isTranslucent = true
 
         setUpDataSource()
         
@@ -46,10 +54,11 @@ class HomeViewController: UIViewController {
         
         viewModel?.$seachText
             .receive(on: RunLoop.main)
+            .dropFirst()
             .debounce(for: .seconds(0.5), scheduler: RunLoop.main)
             .removeDuplicates()
-            .sink { text in
-                debugPrint(text)
+            .sink {  [weak self] text in
+                self?.viewModel?.searchSeries(by: text)
             }.store(in: &cancellables)
     }
     
@@ -63,6 +72,7 @@ class HomeViewController: UIViewController {
     
     private func renderSeries(series:[Serie]) {
         var snapShot = SerieSnapShot()
+
         snapShot.appendSections([.main])
         snapShot.appendItems(series, toSection: .main)
         
@@ -85,17 +95,20 @@ extension HomeViewController: HomeViewDelegate {
         }
     }
     
-    func updateSearchResults(for searchController: UISearchController) {
-//        searchController
-    }
+    func updateSearchResults(for searchController: UISearchController) { }
     
-    
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        self.viewModel?.seachText = searchText
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        guard let searchText = searchBar.text, searchText != "" else { return }
+        self.viewModel?.seachText = searchText.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        self.viewModel?.seachText = ""
+        viewModel?.isCanLoadMore = true
+        viewModel?.currentPage = 0
+    }
+    
+    func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
+        viewModel?.isCanLoadMore = true
     }
     
 }

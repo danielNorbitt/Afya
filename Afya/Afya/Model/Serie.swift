@@ -7,6 +7,7 @@ import Foundation
 // MARK: - SerieElement
 struct Serie: Codable, Hashable {
     
+    let identifier:UUID = UUID()
     let id: Int?
     let name: String?
     let language: String?
@@ -35,6 +36,13 @@ struct Serie: Codable, Hashable {
 
 extension Serie: Equatable {
     static func == (lhs: Serie, rhs: Serie) -> Bool {
-        return lhs.id == rhs.id
+        return lhs.identifier == rhs.identifier
+    }
+}
+
+extension Serie: Identifiable {
+
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(identifier)
     }
 }

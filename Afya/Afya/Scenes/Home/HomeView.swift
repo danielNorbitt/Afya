@@ -8,17 +8,21 @@
 import UIKit
 import SnapKit
 
-protocol HomeViewDelegate:class, UITableViewDelegate, UISearchBarDelegate, UISearchControllerDelegate, UISearchResultsUpdating{
+protocol HomeViewDelegate:class,
+                          UITableViewDelegate,
+                          UISearchBarDelegate,
+                          UISearchControllerDelegate,
+                          UISearchResultsUpdating{
 }
 
 class HomeView: UIView {
     
     weak var delegate:HomeViewDelegate?
-        
+    
     lazy var tableView:UITableView = {
         let tableView = UITableView(frame: .zero)
         tableView.register(SerieTableViewCell.self, forCellReuseIdentifier: "serieCell")
-        tableView.backgroundColor = .systemBackground
+        tableView.backgroundColor = .black
         tableView.delegate = delegate
         tableView.rowHeight = UITableView.automaticDimension
         tableView.separatorStyle = .none
@@ -30,6 +34,7 @@ class HomeView: UIView {
         let searchController = UISearchController()
         searchController.delegate = delegate
         searchController.searchResultsUpdater = delegate
+        searchController.searchBar.delegate = delegate
         searchController.searchBar.autocapitalizationType = .none
         return searchController
     }()

@@ -8,6 +8,7 @@ import Foundation
 // MARK: - Episode
 struct Episode: Codable, Hashable{
     
+    let identifier:UUID = UUID()
     let id: Int?
     let name: String?
     let season, number: Int?
@@ -21,6 +22,10 @@ struct Episode: Codable, Hashable{
     
     enum CodingKeys: String, CodingKey {
         case id, name, season, number, type, airdate, airtime, airstamp, runtime, image, summary
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(identifier)
     }
 }
 

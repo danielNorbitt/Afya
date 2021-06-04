@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		12032F56884D92D1504B3B6C /* Pods_Afya_AfyaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E363042D5C88E896F08476 /* Pods_Afya_AfyaUITests.framework */; };
+		42039C5E266A71BD00AE91C0 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42039C5D266A71BD00AE91C0 /* SearchResult.swift */; };
+		42039C70266A7C6300AE91C0 /* ShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42039C6F266A7C6300AE91C0 /* ShowDetailViewController.swift */; };
+		42039C78266A7C8500AE91C0 /* ShowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42039C77266A7C8500AE91C0 /* ShowDetailView.swift */; };
+		42039C7D266A7C9500AE91C0 /* ShowDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42039C7C266A7C9500AE91C0 /* ShowDetailViewModel.swift */; };
+		42039C83266A7EB500AE91C0 /* ShowDetailCoodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42039C82266A7EB500AE91C0 /* ShowDetailCoodinator.swift */; };
 		4241990126681F5400F2A482 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424198EE26681F5200F2A482 /* Day.swift */; };
 		4241990426681F5400F2A482 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424198F126681F5200F2A482 /* Serie.swift */; };
 		4241990526681F5400F2A482 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424198F226681F5300F2A482 /* Rating.swift */; };
@@ -68,6 +73,11 @@
 /* Begin PBXFileReference section */
 		1F8A0FC1144F6DF748A0AE61 /* Pods_Afya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Afya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ACBD9E76652C5C590F115AF /* Pods-AfyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AfyaTests.release.xcconfig"; path = "Target Support Files/Pods-AfyaTests/Pods-AfyaTests.release.xcconfig"; sourceTree = "<group>"; };
+		42039C5D266A71BD00AE91C0 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		42039C6F266A7C6300AE91C0 /* ShowDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailViewController.swift; sourceTree = "<group>"; };
+		42039C77266A7C8500AE91C0 /* ShowDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailView.swift; sourceTree = "<group>"; };
+		42039C7C266A7C9500AE91C0 /* ShowDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailViewModel.swift; sourceTree = "<group>"; };
+		42039C82266A7EB500AE91C0 /* ShowDetailCoodinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailCoodinator.swift; sourceTree = "<group>"; };
 		4241988C2668069A00F2A482 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		424198EE26681F5200F2A482 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		424198F126681F5200F2A482 /* Serie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
@@ -158,6 +168,17 @@
 				3ACBD9E76652C5C590F115AF /* Pods-AfyaTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		42039C6E266A7C3000AE91C0 /* ShowDetail */ = {
+			isa = PBXGroup;
+			children = (
+				42039C6F266A7C6300AE91C0 /* ShowDetailViewController.swift */,
+				42039C77266A7C8500AE91C0 /* ShowDetailView.swift */,
+				42039C7C266A7C9500AE91C0 /* ShowDetailViewModel.swift */,
+				42039C82266A7EB500AE91C0 /* ShowDetailCoodinator.swift */,
+			);
+			path = ShowDetail;
 			sourceTree = "<group>";
 		};
 		4241988B2668068A00F2A482 /* Repositoy */ = {
@@ -297,6 +318,7 @@
 				424198EE26681F5200F2A482 /* Day.swift */,
 				424198FB26681F5300F2A482 /* Image.swift */,
 				424198FC26681F5300F2A482 /* Network.swift */,
+				42039C5D266A71BD00AE91C0 /* SearchResult.swift */,
 				424198F226681F5300F2A482 /* Rating.swift */,
 				424198F726681F5300F2A482 /* Schedule.swift */,
 				424198F126681F5200F2A482 /* Serie.swift */,
@@ -340,6 +362,7 @@
 		42FD8B8E265DDF8F003057D2 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				42039C6E266A7C3000AE91C0 /* ShowDetail */,
 				42FD8B85265DDF51003057D2 /* Home */,
 			);
 			path = Scenes;
@@ -609,16 +632,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42039C7D266A7C9500AE91C0 /* ShowDetailViewModel.swift in Sources */,
 				4241999B266845B600F2A482 /* Season.swift in Sources */,
 				4241990F26681F5400F2A482 /* Network.swift in Sources */,
 				4241992E2668228E00F2A482 /* ErrorAPI.swift in Sources */,
 				42E6C1F5265DDAB600A182BB /* AppCoordinator.swift in Sources */,
 				42CF059D265DC735009AD452 /* AppDelegate.swift in Sources */,
 				4241997926683AF700F2A482 /* Episode.swift in Sources */,
+				42039C83266A7EB500AE91C0 /* ShowDetailCoodinator.swift in Sources */,
 				4241994E266831EC00F2A482 /* RemoteRepository.swift in Sources */,
 				4274D53B26699001000CBBB3 /* Constants.swift in Sources */,
 				42419943266830B900F2A482 /* Repository.swift in Sources */,
 				424199832668428700F2A482 /* EpisodeAPI.swift in Sources */,
+				42039C70266A7C6300AE91C0 /* ShowDetailViewController.swift in Sources */,
 				4241990D26681F5400F2A482 /* Country.swift in Sources */,
 				424199882668438E00F2A482 /* EpisodeService.swift in Sources */,
 				4241990126681F5400F2A482 /* Day.swift in Sources */,
@@ -631,10 +657,12 @@
 				4241997A26683AF700F2A482 /* Embedded.swift in Sources */,
 				42EAD3572666B0150054AA13 /* APIClient.swift in Sources */,
 				42CF05A7265DC735009AD452 /* Afya.xcdatamodeld in Sources */,
+				42039C5E266A71BD00AE91C0 /* SearchResult.swift in Sources */,
 				42419996266844B300F2A482 /* SeasonService.swift in Sources */,
 				4241990A26681F5400F2A482 /* Schedule.swift in Sources */,
 				42FD8B87265DDF66003057D2 /* HomeViewController.swift in Sources */,
 				42FD8B98265DE437003057D2 /* HomeCoordinator.swift in Sources */,
+				42039C78266A7C8500AE91C0 /* ShowDetailView.swift in Sources */,
 				428AD541266956B400C3C8DF /* HomeViewModel.swift in Sources */,
 				4241990526681F5400F2A482 /* Rating.swift in Sources */,
 				42CF059F265DC735009AD452 /* SceneDelegate.swift in Sources */,

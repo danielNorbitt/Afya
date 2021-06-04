@@ -29,7 +29,7 @@ final class Repository:APIRepository{
                     guard let data = response.data else { throw APIError.noContent }
                     let object = try JSONDecoder().decode(T.self, from: data)
                     completion?(.success(object), response.response)
-                } catch {
+                } catch (let error){
                     let error = error is DecodingError ? APIError.serial(error as! DecodingError) : APIError.generic(error)
                     completion?(.failure(error), response.response)
                 }

@@ -37,17 +37,16 @@ final class HomeViewModel<T:SerieServiceProtocol>: ObservableObject {
         }
     }
     
-//    func searchSerie(with name:String) {
-//        serieService.getSearcheSeriesByName(by: name) { [weak self] (result) in
-//            guard let self = self else { return }
-//            switch result {
-//            case .success(let series):
-//                
-//            case .failure(let error):
-//                debugPrint(error)
-//            }
-//        }
-//    }
-    
+    func searchSeries(by text:String) {
+        serieService.getSearcheSeriesByName(by: text) { (result) in
+            switch result {
+            case .success(let searchResult):
+                self.series = searchResult.map { $0.show }
+                self.isCanLoadMore = false
+            case .failure(let error):
+                debugPrint(error)
+            }
+        }
+    }
 }
 
